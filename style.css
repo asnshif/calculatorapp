@@ -1,0 +1,308 @@
+*{
+    margin:0;
+    padding:o;
+    box-sizing:border-box;
+}
+
+body{
+    width:100%;
+    height:100vh;
+    background-color: #3a4764;
+    font-family:"League Spartan";
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.theme2-body{
+    background-color:#ededed ;
+}
+
+.theme3-body{
+    background-color: #160628
+}
+
+html{
+    font-size:16px;
+}
+
+.container{
+    display:flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    width:28rem
+
+
+}
+
+
+.calc-screen{
+    
+    color: hsl(0, 0%, 100%);
+    font-size: 2.5rem;
+    padding:1.2rem;
+    text-align: end;
+    border-radius: 0.5rem;
+    max-width: 100%;
+    overflow: hidden;
+}
+.calc-screen-theme1{
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(224, 36%, 15%);
+
+}
+
+.calc-screen-theme2{
+    background-color: hsl(0, 7%, 82%);
+    color: hsl(60, 10%, 19%);
+}
+
+.calc-screen-theme3{
+    background-color: hsl(268, 71%, 12%);
+    color: hsl(52, 100%, 62%);
+}
+
+.pad{
+    padding:1.2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap:1.2rem;
+    border-radius: 0.5rem;
+}
+
+.pad-theme1{
+    background-color:hsl(225, 30%, 21%) ;
+
+
+}
+
+.pad-theme2{
+    background-color:hsl(0, 6%, 82%) ;
+}
+.pad-theme3{
+    background-color:hsl(268, 71%, 12%) ;
+}
+.calc-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 0.6rem 1rem; */
+    width: 5rem;
+    height: 3rem;
+    font-size: 1.8rem;
+    border-radius: 0.5rem;
+}
+
+.calc-btn-theme1{
+    background-color: hsl(32, 26%, 89%);
+
+    box-shadow: 0 0.2rem 0 hsl(28, 16%, 65%);
+
+}
+
+.calc-btn-theme2{
+    background-color: hsl(32, 26%, 89%);
+    box-shadow: 0 0.2rem 0 hsl(35, 11%, 61%);
+}
+
+.calc-btn-theme3{
+    background-color: hsl(281, 89%, 26%);
+    box-shadow: 0 0.2rem 0  hsl(285, 91%, 52%);
+    color:  hsl(52, 100%, 62%);
+}
+
+.calc-btn-theme3:hover{
+    background-color: hsl(280, 56%, 44%)
+}
+.calc-btn-theme1:hover{
+    background-color: white;  
+}
+.calc-btn-theme2:hover{
+    background-color: white;  
+}
+.calc-btn:active{
+    transform:translateY(0.3rem)
+}
+
+.attribution{
+    font-family: 'roboto', sans-serif;
+    font-size: 0.8rem;
+    position: absolute;
+    bottom: 0;
+    visibility: hidden;;
+}
+
+#reset{
+    grid-column: 1/3;
+    width:100%;
+}
+
+#equal{
+    grid-column: 3/5;
+    width:100%;
+    
+    color: white;
+    
+}
+
+.equal:hover{
+    background-color: rgba(255,255,255,0.5);
+}
+
+.equal-theme1{
+    box-shadow: 0 0.2rem 0 hsl(6, 70%, 34%);
+    background-color: hsl(6, 64%, 50%);
+}
+
+.equal-theme1:hover{
+    background-color: hsl(6, 93%, 67%)
+}
+
+.equal-theme2{
+    box-shadow: 0 0.2rem 0 hsl(25, 99%, 27%);
+    background-color: hsl(25, 98%, 40%);
+    
+    
+}
+
+.equal-theme2:hover{
+    background-color: hsl(25, 100%, 61%);
+}
+.equal-theme3{
+    box-shadow: 0 0.2rem 0 hsl(177, 92%, 70%)    ;
+    background-color: hsl(176, 100%, 44%);
+    
+    
+}
+
+.equal-theme3:hover{
+    background-color: hsl(177, 100%, 79%);
+}
+
+#del, #reset{
+    
+    
+    text-transform: uppercase;
+    font-size: 1.2rem;
+}
+
+.spcl-btn-theme2{
+    color:white;
+    background-color: hsl(185, 42%, 37%);
+    box-shadow: 0 0.2rem 0 hsl(185, 58%, 25%);
+}
+
+.spcl-btn-theme1:hover{
+    background-color: hsl(224, 51%, 76%);
+}
+.spcl-btn-theme2:hover{
+    background-color: #62b5bd;
+}
+
+.spcl-btn-theme3{
+    color:white;
+    background-color: hsl(268, 47%, 21%);
+    box-shadow: 0 0.2rem 0 hsl(300, 100%, 27%);
+}
+
+.spcl-btn-theme1{
+    color:white;
+    background-color: hsl(223, 21%, 49%);
+    box-shadow: 0 0.2rem 0 hsl(224, 28%, 35%);
+
+}
+
+.title{
+   
+    text-transform: lowercase;
+    font-size: 1.2rem;
+    display: flex;;
+}
+.title-theme1{
+    color:white;
+}
+.title-theme2{
+    color: hsl(60, 10%, 19%);
+}
+.title-theme3{
+    color: hsl(52, 100%, 62%);
+}
+.theme-toggler{
+    margin-left:auto;
+    display: flex;
+    align-items: center;
+    gap:0.6rem
+}
+
+.theme-toggler>p{
+    font-size:0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.theme-num{
+    transform: translate(6rem, -1rem);
+    letter-spacing: 2rem;
+}
+
+.title-theme2{
+    color: hsl(60, 10%, 19%)
+}
+
+.toggle-bg{
+    
+    width: 3rem;
+    height:1.1rem;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    padding:3px
+
+
+}
+
+.toggle-bg-theme1{
+    background-color:hsl(223, 31%, 20%);
+}
+
+.toggle-bg-theme2{
+    background-color: hsl(0, 5%, 81%)
+}
+
+.toggle-bg-theme3{
+    background-color: hsl(268, 71%, 12%)
+}
+.circle{
+    background-color: hsl(6, 64%, 50%) ;
+    height: 0.8rem;
+    width:0.8rem;
+    border-radius: 100%;
+    transition: ease-in 0.2s;
+}
+.circle-theme1{
+    transform: translateX(0);
+
+}
+.circle-theme2{
+    transform: translateX(110%);
+    transition: ease-in 0.1s;
+}
+
+.circle-theme3{
+    transform: translateX(220%);
+    transition: ease-in 0.1s;
+}
+
+
+/* @media  screen and (min-width:375px max-width:) {
+    .container{
+        width:90%;
+    }
+
+    .calc-btn{
+        width: 3.5rem;
+    }
+} */
+
+

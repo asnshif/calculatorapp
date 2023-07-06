@@ -130,6 +130,7 @@ html{
     font-size: 0.8rem;
     margin-top:8rem;
     bottom: 0;
+    position:absoulte;
     color:rgba(209, 62, 46, 0.659);
 }
 

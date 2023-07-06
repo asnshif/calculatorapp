@@ -128,9 +128,8 @@ html{
 .attribution{
     font-family: 'poppins', sans-serif;
     font-size: 0.8rem;
-    margin-top:8rem;
     bottom: 0;
-    position:absoulte;
+     position: absolute;
     color:rgba(209, 62, 46, 0.659);
 }
 
@@ -311,8 +310,20 @@ html{
    }
    .calc-btn{
     font-size: 1.5rem;
-    height: 2.7rem;
+    height: 2.7rem;}
    }
 }
+
+@media screen and (max-height:520px) and (min-height:0){
+    .attribution{
+        position: static;
+        margin-top: 2rem;
+    }
+}
+.container{
+    position: absolute;
+    top:50px;
+}
+
 
 

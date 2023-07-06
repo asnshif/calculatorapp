@@ -319,11 +319,13 @@ html{
         position: static;
         margin-top: 2rem;
     }
+    .container{
+        position: absolute;
+        top:50px;
+    }
+    
 }
-.container{
-    position: absolute;
-    top:50px;
-}
+
 
 
 

@@ -128,7 +128,7 @@ html{
 .attribution{
     font-family: 'poppins', sans-serif;
     font-size: 0.8rem;
-    position: absolute;
+    margin-top:8rem;
     bottom: 0;
     color:rgba(209, 62, 46, 0.659);
 }

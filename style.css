@@ -44,7 +44,7 @@ html{
     padding:1.2rem;
     text-align: end;
     border-radius: 0.5rem;
-    max-width: 100%;
+    max-width: 26rem;
     overflow: hidden;
 }
 .calc-screen-theme1{
@@ -129,7 +129,7 @@ html{
     font-family: 'poppins', sans-serif;
     font-size: 0.8rem;
     bottom: 0;
-     position: absolute;
+    position: absolute;
     color:rgba(209, 62, 46, 0.659);
 }
 
@@ -301,16 +301,20 @@ html{
 }
 
 
-@media  screen and (min-width:375px) and (max-width:850px) {
+@media  screen and (max-width:375px) and (min-width:300px) {
     
    .pad{
     grid-template-columns: 3rem 3rem 3rem 3rem;
 
 
    }
+
+   .calc-screen{
+    max-width: 18rem;
+   }
    .calc-btn{
     font-size: 1.5rem;
-    height: 2.7rem;}
+    height: 2.7rem;
    }
 }
 
@@ -325,7 +329,5 @@ html{
     }
     
 }
-
-
 
 

@@ -3,7 +3,7 @@ const CACHE_NAME  = 'calculator-app';
 
 /* Add relative URL of all the static content you want to store in
  * cache storage (this will help us use our app offline)*/
-let resourcesToCache = ["./","./index.html","./style.css","./script.js" ];
+let resourcesToCache = ["./","./index.html","./style.css","./script.js", "./icons/calc-icon.png"];
 
 self.addEventListener("install", e=>{
     e.waitUntil(

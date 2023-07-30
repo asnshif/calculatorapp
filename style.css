@@ -195,7 +195,7 @@ html{
 
 .spcl-btn-theme2{
     color:white;
-    background-color: rgb(55, 127, 134);
+    background-color: hsl(185, 42%, 37%);
     box-shadow: 0 0.2rem 0 hsl(185, 58%, 25%);
 }
 
@@ -214,7 +214,7 @@ html{
 
 .spcl-btn-theme1{
     color:white;
-    background-color: #637297;
+    background-color: hsl(223, 21%, 49%);
     box-shadow: 0 0.2rem 0 hsl(224, 28%, 35%);
 
 }
@@ -301,7 +301,7 @@ html{
 }
 
 
-@media  screen and (max-width:375px) and (min-width:300px) {
+@media  screen and (max-width:450px) and (min-width:350px) {
     
    .pad{
     grid-template-columns: 3rem 3rem 3rem 3rem;
@@ -329,5 +329,4 @@ html{
     }
     
 }
-
 
